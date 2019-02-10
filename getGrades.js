@@ -4,7 +4,6 @@ const fs = require('fs')
 const {
   getCookies
 } = require('./cookieHandler');
-
 const work = async () => {
   const browser = await puppeteer.launch();
   const page = await browser.newPage();
